@@ -7,5 +7,5 @@ const MyAccount = () => {
     );
 };
 
-export default myAccount;
+export default MyAccount;
 

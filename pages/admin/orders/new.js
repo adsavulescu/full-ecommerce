@@ -1,7 +1,7 @@
 // pages/admin/orders/new.js
 
-import React, {useEffect, useRef, useState} from 'react';
-import { useRouter } from 'next/router';
+import React, {useEffect, useRef, useState} from "react";
+import { useRouter } from "next/router";
 import {Button, Container, Form} from "react-bootstrap";
 
 export default function NewOrder() {
@@ -17,15 +17,15 @@ export default function NewOrder() {
 
         console.log(Array.from(formData));
 
-        const res = await fetch('/api/orders', {
-            method: 'POST',
+        const res = await fetch("/api/orders", {
+            method: "POST",
             body: formData,
         });
 
         if (res.ok) {
-            await router.push('/admin/orders');
+            await router.push("/admin/orders");
         } else {
-            alert('Failed to create order');
+            alert("Failed to create order");
         }
     };
 

@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import { CartContext } from '@/context/CartContext';
+import React, { useContext } from "react";
+import { CartContext } from "@/context/CartContext";
 import {Container, Table, Button} from "react-bootstrap";
 import {UserContext} from "@/context/UserContext";
 
@@ -17,14 +17,14 @@ const Cart = () => {
             userId: user.id,
             products: cart.map(product => ({ productId: product.id, quantity: product.quantity })),
             totalPrice,
-            orderStatus: 'pending',
+            orderStatus: "pending",
         };
 
         // send order to server
-        const res = await fetch('/api/orders', {
-            method: 'POST',
+        const res = await fetch("/api/orders", {
+            method: "POST",
             headers: {
-                'Content-Type': 'application/json',
+                "Content-Type": "application/json",
             },
             body: JSON.stringify(order),
         });
@@ -34,9 +34,9 @@ const Cart = () => {
             clearCart();
 
             // redirect to order confirmation page
-            // router.push('/order-confirmation');
+            // router.push("/order-confirmation");
         } else {
-            alert('Failed to place order');
+            alert("Failed to place order");
         }
     };
 

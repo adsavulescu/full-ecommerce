@@ -1,7 +1,7 @@
-import {useContext, useEffect, useState} from 'react';
-import { useRouter } from 'next/router';
-import data from '../../data.json';
-import { CartContext } from '@/context/CartContext';
+import {useContext, useEffect, useState} from "react";
+import { useRouter } from "next/router";
+import data from "../../data.json";
+import { CartContext } from "@/context/CartContext";
 import Product from "@/components/Product";
 import {Container} from "react-bootstrap";
 

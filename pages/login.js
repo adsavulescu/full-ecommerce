@@ -1,34 +1,34 @@
-import React, {useContext, useState} from 'react';
-import {Container, Form, Button} from 'react-bootstrap';
-import { UserContext } from '@/context/UserContext';
+import React, {useContext, useState} from "react";
+import {Container, Form, Button} from "react-bootstrap";
+import { UserContext } from "@/context/UserContext";
 import {useRouter} from "next/router";
 const Login = () => {
     const router = useRouter();
     const { saveUser } = useContext(UserContext);
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
     // console.log(user, setUser);
 
     const loginUser = async event => {
         event.preventDefault();
 
-        const res = await fetch('/api/login', {
+        const res = await fetch("/api/login", {
             body: JSON.stringify({
                 email: email,
                 password: password,
             }),
             headers: {
-                'Content-Type': 'application/json'
+                "Content-Type": "application/json"
             },
-            method: 'POST'
+            method: "POST"
         });
 
         const result = await res.json();
 
         if (result.success) {
             saveUser(result.user);
-            await router.push('/');
+            await router.push("/");
         } else {
             // handle error
         }
@@ -44,7 +44,7 @@ const Login = () => {
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" value={email} onChange={e => setEmail(e.target.value)} />
                         <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
+                            We will never share your email with anyone else.
                         </Form.Text>
                     </Form.Group>
 
@@ -64,5 +64,5 @@ const Login = () => {
     );
 };
 
-export default login;
+export default Login;
 

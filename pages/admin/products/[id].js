@@ -1,24 +1,24 @@
 // pages/admin/products/[id].js
 
-import React, { useState, useEffect, useRef } from 'react';
-import { useRouter } from 'next/router';
+import React, { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/router";
 import { Button, Container, Form, Image } from "react-bootstrap";
 
 export default function EditProduct() {
     const {
         query: { id },
     } = useRouter();
-    const [image, setImage] = useState('');
-    const [name, setName] = useState('');
-    const [description, setDescription] = useState('');
-    const [price, setPrice] = useState('');
+    const [image, setImage] = useState("");
+    const [name, setName] = useState("");
+    const [description, setDescription] = useState("");
+    const [price, setPrice] = useState("");
     const router = useRouter();
 
     const formRef = useRef(null);
 
     useEffect(() => {
         if (formRef.current) {
-            formRef.current.setAttribute('enctype', 'multipart/form-data');
+            formRef.current.setAttribute("enctype", "multipart/form-data");
         }
 
         async function fetchProduct() {
@@ -40,19 +40,19 @@ export default function EditProduct() {
 
         const form = e.currentTarget;
         const formData = new FormData(form);
-        if (!formData.get('image')) {
-            formData.set('image', image);
+        if (!formData.get("image")) {
+            formData.set("image", image);
         }
 
         const res = await fetch(`/api/products/${id}`, {
-            method: 'PUT',
+            method: "PUT",
             body: formData,
         });
 
         if (res.ok) {
-            router.push('/admin/products');
+            router.push("/admin/products");
         } else {
-            alert('Failed to update product');
+            alert("Failed to update product");
         }
     };
 
@@ -80,7 +80,7 @@ export default function EditProduct() {
                 <Form.Group>
                     <Form.Label>Description</Form.Label>
                     <Form.Control
-                        as='textarea'
+                        as="textarea"
                         name="description"
                         value={description}
                         onChange={(e) => setDescription(e.target.value)}

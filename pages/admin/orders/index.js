@@ -1,7 +1,7 @@
 // pages/admin/orders/index.js
 
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import {Container, Image, Tab, Table} from "react-bootstrap";
 
 export default function AdminOrders() {
@@ -9,7 +9,7 @@ export default function AdminOrders() {
 
     useEffect(() => {
         async function fetchOrders() {
-            const res = await fetch('/api/orders');
+            const res = await fetch("/api/orders");
             const data = await res.json();
             setOrders(data);
         }
@@ -39,20 +39,20 @@ export default function AdminOrders() {
                         <td>{order.status}</td>
                         <td>${order.price}</td>
                         <td>
-                            <Link href={`/admin/orders/${order.id}`} className='btn btn-primary'>
+                            <Link href={`/admin/orders/${order.id}`} className="btn btn-primary">
                                 Edit
                             </Link>
                             <button
-                                className='btn btn-primary'
+                                className="btn btn-primary"
                                 onClick={async () => {
                                     const res = await fetch(`/api/orders/${order.id}`, {
-                                        method: 'DELETE',
+                                        method: "DELETE",
                                     });
 
                                     if (res.ok) {
                                         setOrders(orders.filter((p) => p.id !== order.id));
                                     } else {
-                                        alert('Failed to delete order');
+                                        alert("Failed to delete order");
                                     }
                                 }}
                             >

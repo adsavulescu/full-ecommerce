@@ -1,15 +1,15 @@
 // pages/admin/orders/[id].js
 
-import React, { useState, useEffect, useRef } from 'react';
-import { useRouter } from 'next/router';
+import React, { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/router";
 import { Button, Container, Form, Image } from "react-bootstrap";
 
 export default function EditOrder() {
     const {
         query: { id },
     } = useRouter();
-    const [status, setStatus] = useState('');
-    const [price, setPrice] = useState('');
+    const [status, setStatus] = useState("");
+    const [price, setPrice] = useState("");
     const router = useRouter();
 
     const formRef = useRef(null);
@@ -35,14 +35,14 @@ export default function EditOrder() {
         const formData = new FormData(form);
 
         const res = await fetch(`/api/orders/${id}`, {
-            method: 'PUT',
+            method: "PUT",
             body: formData,
         });
 
         if (res.ok) {
-            router.push('/admin/orders');
+            router.push("/admin/orders");
         } else {
-            alert('Failed to update order');
+            alert("Failed to update order");
         }
     };
 

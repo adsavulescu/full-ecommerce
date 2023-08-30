@@ -1,7 +1,7 @@
 // pages/admin/products/new.js
 
-import React, {useEffect, useRef, useState} from 'react';
-import { useRouter } from 'next/router';
+import React, {useEffect, useRef, useState} from "react";
+import { useRouter } from "next/router";
 import {Button, Container, Form} from "react-bootstrap";
 
 export default function NewProduct() {
@@ -11,7 +11,7 @@ export default function NewProduct() {
 
     useEffect(() => {
         if (formRef.current) {
-            formRef.current.setAttribute('enctype', 'multipart/form-data');
+            formRef.current.setAttribute("enctype", "multipart/form-data");
         }
     }, []);
 
@@ -23,15 +23,15 @@ export default function NewProduct() {
 
         console.log(Array.from(formData));
 
-        const res = await fetch('/api/products', {
-            method: 'POST',
+        const res = await fetch("/api/products", {
+            method: "POST",
             body: formData,
         });
 
         if (res.ok) {
-            await router.push('/admin/products');
+            await router.push("/admin/products");
         } else {
-            alert('Failed to create product');
+            alert("Failed to create product");
         }
     };
 
@@ -56,7 +56,7 @@ export default function NewProduct() {
                 <Form.Group>
                     <Form.Label>Description</Form.Label>
                     <Form.Control
-                        as='textarea'
+                        as="textarea"
                         name="description"
                     ></Form.Control>
                 </Form.Group>

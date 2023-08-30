@@ -6,8 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="1169ab15-ec8b-4a15-b254-cef93b301655" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FullScreenSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/FullScreenSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/orders/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/orders/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/orders/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/orders/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/orders/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/orders/new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/products/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/products/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/products/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/products/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/products/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/products/new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/authenticated.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/authenticated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/orders/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/orders/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/orders/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/orders/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/products/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/products/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/products/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/products/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my-account.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my-account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +113,7 @@
       <updated>1693392577849</updated>
       <workItem from="1693392578888" duration="403000" />
       <workItem from="1693392991136" duration="30550000" />
-      <workItem from="1693426010534" duration="70000" />
+      <workItem from="1693426010534" duration="758000" />
     </task>
     <servers />
   </component>

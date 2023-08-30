@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import { Button } from 'react-bootstrap';
+import Link from "next/link"
+import { Button } from "react-bootstrap";
 
 const Product = ({ product, actionText, onAction }) => (
-    <div className='product' key={product.id}>
+    <div className="product" key={product.id}>
         <div className="img">
             <img src={`uploads/${product.image}`} alt={product.name} />
         </div>

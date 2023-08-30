@@ -1,7 +1,7 @@
 // pages/admin/products/index.js
 
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import {Container, Image, Tab, Table} from "react-bootstrap";
 
 export default function AdminProducts() {
@@ -9,7 +9,7 @@ export default function AdminProducts() {
 
     useEffect(() => {
         async function fetchProducts() {
-            const res = await fetch('/api/products');
+            const res = await fetch("/api/products");
             const data = await res.json();
             setProducts(data);
         }
@@ -43,20 +43,20 @@ export default function AdminProducts() {
                         <td>{product.name}</td>
                         <td>${product.price}</td>
                         <td>
-                            <Link href={`/admin/products/${product.id}`} className='btn btn-primary'>
+                            <Link href={`/admin/products/${product.id}`} className="btn btn-primary">
                                 Edit
                             </Link>
                             <button
-                                className='btn btn-primary'
+                                className="btn btn-primary"
                                 onClick={async () => {
                                     const res = await fetch(`/api/products/${product.id}`, {
-                                        method: 'DELETE',
+                                        method: "DELETE",
                                     });
 
                                     if (res.ok) {
                                         setProducts(products.filter((p) => p.id !== product.id));
                                     } else {
-                                        alert('Failed to delete product');
+                                        alert("Failed to delete product");
                                     }
                                 }}
                             >
