@@ -1,6 +1,6 @@
 
 
-const myAccount = () => {
+const MyAccount = () => {
 
     return (
         <div>my account</div>

@@ -2,7 +2,7 @@ import React, {useContext, useState} from 'react';
 import {Container, Form, Button} from 'react-bootstrap';
 import { UserContext } from '@/context/UserContext';
 import {useRouter} from "next/router";
-const login = () => {
+const Login = () => {
     const router = useRouter();
     const { saveUser } = useContext(UserContext);
     const [email, setEmail] = useState('');

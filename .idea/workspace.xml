@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1169ab15-ec8b-4a15-b254-cef93b301655" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/FullScreenSlider.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/components/Product.js" afterDir="false" />
@@ -28,18 +27,20 @@
       <change afterPath="$PROJECT_DIR$/pages/api/register.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pages/cart.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/my-account.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pages/order-confirmation.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pages/product/[id].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/register.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FullScreenSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/FullScreenSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my-account.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my-account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
     </list>
@@ -76,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/full-ecommerce/pages/admin",
     "node.js.detected.package.eslint": "true",
@@ -122,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693392577849</updated>
       <workItem from="1693392578888" duration="403000" />
-      <workItem from="1693392991136" duration="29775000" />
+      <workItem from="1693392991136" duration="30415000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@ import Product from '../components/Product';
 import { useRouter } from 'next/router';
 import {Container, Row, Col, FormSelect, Form} from 'react-bootstrap';
 
-const products = () => {
+const Products = () => {
     const router = useRouter();
 
     const [filters, setFilters] = useState({color: '', price: Infinity});
