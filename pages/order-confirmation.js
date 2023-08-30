@@ -10,3 +10,4 @@ const OrderConfirmation = () => {
         </Container>
     );
 }
+export default OrderConfirmation;
