@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1169ab15-ec8b-4a15-b254-cef93b301655" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FullScreenSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/CartContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/UserContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/orders/[id].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/orders/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/orders/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/products/[id].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/products/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/products/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/authenticated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/orders/[id].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/orders/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/products/[id].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/products/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/my-account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order-confirmation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/product/[id].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2UhX2Nuk6hlsmlPvkOJulnbkuZF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Projects/full-ecommerce/pages/admin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\full-ecommerce\pages\admin" />
+      <recent name="D:\Projects\full-ecommerce\pages\api" />
+      <recent name="D:\Projects\full-ecommerce\pages" />
+      <recent name="D:\Projects\full-ecommerce\components" />
+      <recent name="D:\Projects\full-ecommerce\stores" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\full-ecommerce\pages" />
+      <recent name="D:\Projects\full-ecommerce\pages\products" />
+      <recent name="D:\Projects\full-ecommerce" />
+      <recent name="D:\Projects\full-ecommerce\src" />
+      <recent name="D:\Projects\full-ecommerce\src\app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1169ab15-ec8b-4a15-b254-cef93b301655" name="Changes" comment="" />
+      <created>1693392577849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693392577849</updated>
+      <workItem from="1693392578888" duration="403000" />
+      <workItem from="1693392991136" duration="29775000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/full-ecommerce" />
+    </ignored-roots>
+  </component>
+</project>
