@@ -1,26 +1,26 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const styles = {
     container: {
-        height: 'calc(100vh - 72px)',
-        overflow: 'hidden',
+        height: "calc(100vh - 72px)",
+        overflow: "hidden",
     },
     slider: {
-        width: '100%',
-        height: '100%',
+        width: "100%",
+        height: "100%",
     },
     slide: {
-        width: '100%',
-        height: '100%',
+        width: "100%",
+        height: "100%",
     },
     image: {
-        width: '100%',
-        height: '100%',
-        objectPosition: 'top',
-        objectFit:'cover'
+        width: "100%",
+        height: "100%",
+        objectPosition: "top",
+        objectFit:"cover"
     },
 };
 

@@ -1,13 +1,13 @@
-import React, {useEffect, useState} from 'react';
-import data from '../data.json';
-import Product from '../components/Product';
-import { useRouter } from 'next/router';
-import {Container, Row, Col, FormSelect, Form} from 'react-bootstrap';
+import React, {useEffect, useState} from "react";
+import data from "../data.json";
+import Product from "../components/Product";
+import { useRouter } from "next/router";
+import {Container, Row, Col, FormSelect, Form} from "react-bootstrap";
 
 const Products = () => {
     const router = useRouter();
 
-    const [filters, setFilters] = useState({color: '', price: Infinity});
+    const [filters, setFilters] = useState({color: "", price: Infinity});
     const [filteredData, setFilteredData] = useState([]);
 
     const handleFilterChange = (e) => {
@@ -27,13 +27,13 @@ const Products = () => {
 
     useEffect(() => {
         // Fetch products from the API
-        fetch('/api/products')
+        fetch("/api/products")
             .then(res => res.json())
             .then(data => {
                 setFilteredData(data);
                 filterData(data);
             })
-            .catch(error => console.error('Error fetching products:', error));
+            .catch(error => console.error("Error fetching products:", error));
 
     }, []);
 
